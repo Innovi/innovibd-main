@@ -1,7 +1,6 @@
     <!-- Meta -->
     <meta name="description" content="Innovi is an advertising agency, providing outstanding graphics design, printing and advertising services at an affordable price." />
     <meta name="keywords" content="innovi, innovi bangladesh, graphics design, logo design, business card design, business card print, quality business card print dhaka, banner print, advertisement, advertisement design, advertising dhaka, bangladesh graphics design, printing services dhaka, cheap printing services bangladesh, design firm bangladesh, advertising firm bangladesh" />
-    @yield('meta')
 
     <!-- Facebook and Twitter integration
     ================================================== -->
@@ -21,36 +20,41 @@
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ URL::asset('css/jquery.multiscroll.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/style-intro.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/retina.css') }}">
+    <!-- Stylesheet
+    ================================================== -->
+    @if ( (isset($page) ? $page : ' ') == 'home')
+        <link rel="stylesheet" href="{{ URL::asset('css/jquery.multiscroll.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/style-intro.css') }}">
+    @endif
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.css') }}">
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.css') }}">
 
-    @if ($page !== 'home')
+    @if ( (isset($page) ? $page : ' ') !== 'home')
         <!-- Skeleton  -->
         <link rel="stylesheet" href="{{ URL::asset('css/base.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/skeleton.css') }}">
 
         <!-- Theme style  -->
-        <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+        {{-- <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}"> --}}
         <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/retina.css') }}">
     @endif
+    <!-- ================================================== -->
 
-    <!-- Modernizr JS -->
-    <script src="{{ URL::asset('js/modernizr.custom.js') }}"></script>
-    <!-- FOR IE9 below -->
-      <!--[if lt IE 9]>
-          <script src="{{ URL::asset('js/respond.min.js') }}"></script>
-      <![endif]-->
-
-    <!-- Scripts -->
+    <!-- Scripts
+    ================================================== -->
     <script>
       window.Laravel = <?php echo json_encode([
         'csrfToken' => csrf_token(),
       ]); ?>
     </script>
+
+    <!-- Modernizr JS -->
+    <script src="{{ URL::asset('js/modernizr.custom.js') }}"></script>
+    <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+            <script src="{{ URL::asset('js/respond.min.js') }}"></script>
+        <![endif]-->
+    <!-- ================================================== -->

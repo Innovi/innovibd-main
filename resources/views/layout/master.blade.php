@@ -13,10 +13,16 @@
 </head>
 
 <body class="royal_loader">
+    <!-- Partial Navigation
+    ================================================== -->
     @include('partials.navigation')
 
+    <!-- Content
+    ================================================== -->
     @yield('content')
 
+    <!-- Partial Footer
+    ================================================== -->
     @include('partials.footer')
 </body>
 </html>
