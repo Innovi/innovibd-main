@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    return view('pages.home', array('page' => 'home'));
 });
 
 Route::get('/about', function() {
@@ -24,7 +24,7 @@ Route::get('/work', function() {
 });
 
 Route::get('/services', function() {
-	return view('pages.service');
+	return view('pages.services');
 });
 
 Route::get('/contact', function() {

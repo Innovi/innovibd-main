@@ -3,7 +3,8 @@
     <meta name="keywords" content="innovi, innovi bangladesh, graphics design, logo design, business card design, business card print, quality business card print dhaka, banner print, advertisement, advertisement design, advertising dhaka, bangladesh graphics design, printing services dhaka, cheap printing services bangladesh, design firm bangladesh, advertising firm bangladesh" />
     @yield('meta')
 
-    <!-- Facebook and Twitter integration -->
+    <!-- Facebook and Twitter integration
+    ================================================== -->
     <meta property="og:type" name="og:type" content="website"/>
     <meta property="og:site_name" content="{{ config('app.name') }}"/>
     <meta property="og:url" name="og:url" content="{{ request()->url() }}"/>
@@ -25,18 +26,20 @@
     <link rel="stylesheet" href="{{ URL::asset('css/jquery.multiscroll.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/style-intro.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/retina.css') }}">
+    <!-- Font Awesome  -->
     <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.css') }}">
-
-    <!-- Skeleton  -->
-    <link rel="stylesheet" href="{{ URL::asset('css/base.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/skeleton.css') }}">
-
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.css') }}">
 
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}">
+    @if ($page !== 'home')
+        <!-- Skeleton  -->
+        <link rel="stylesheet" href="{{ URL::asset('css/base.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/skeleton.css') }}">
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}">
+    @endif
 
     <!-- Modernizr JS -->
     <script src="{{ URL::asset('js/modernizr.custom.js') }}"></script>
