@@ -12,23 +12,23 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.home');
 });
 
 Route::get('/about', function() {
-    return view('about');
+    return view('pages.about');
 });
 
 Route::get('/work', function() {
-	return view('work');
+	return view('pages.work');
 });
 
 Route::get('/services', function() {
-	return view('service');
+	return view('pages.service');
 });
 
 Route::get('/contact', function() {
-	return view('contact');
+	return view('pages.contact');
 });
 
 // Route::get('/gallery', function() {
