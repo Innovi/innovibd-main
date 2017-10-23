@@ -1,4 +1,13 @@
     @if ( (isset($page) ? $page : ' ') !== 'home')
+        <div class="work-together-section">
+            <div class="container">
+                <div class="sixteen columns" data-scrollreveal="enter bottom and move 250px over 1.5s">
+                    <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Let's work together">Let's work together</a></div></div>
+                </div>
+            </div>
+        </div>
+        <!-- ================================================== -->
+
         <footer class="footer" id="footer">
             <a class="scroll" href="#work">
                 <div class="back-top">&#xf102;</div>
@@ -38,6 +47,7 @@
                         <p><i class="icon-footer">&#xf0e0;</i><a href="mailto:support@innovi.com.bd" title="">support@innovi.com.bd</a><br/>
                     </div>
                 </div>
+                <!-- ================================================== -->
 
                 <div class="row">
                     <div class="text-center" data-scrollreveal="enter top and move 250px over 3s">
@@ -46,6 +56,7 @@
                 </div>
             </div>
         </footer>
+        <!-- ================================================== -->
     @endif
 
     <!-- JAVASCRIPT

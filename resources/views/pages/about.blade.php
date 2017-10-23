@@ -231,13 +231,4 @@
         </div>
     </div>
     <!-- ================================================== -->
-
-    <div class="work-together-section">
-        <div class="container">
-            <div class="sixteen columns" data-scrollreveal="enter bottom and move 250px over 1.5s">
-                <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Let's work together">Let's work together</a></div></div>
-            </div>
-        </div>
-    </div>
-    <!-- ================================================== -->
 @endsection
