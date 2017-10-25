@@ -15,19 +15,19 @@
                 <div class="sixteen columns" data-scrollreveal="enter bottom and move 250px over 3s">
                     <ul class="flippy">
                         <li>
-                            <div class="small-text-pages">GRAPHICS DESIGN</div>
+                            <div class="small-text-pages">Graphics Design</div>
                         </li>
                         <li>
-                            <div class="small-text-pages">BRANDING</div>
+                            <div class="small-text-pages">Branding</div>
                         </li>
                         <li>
-                            <div class="small-text-pages">PRINTING SERVICES</div>
+                            <div class="small-text-pages">Printing Services</div>
                         </li>
                         <li>
-                            <div class="small-text-pages">IT SUPPORT</div>
+                            <div class="small-text-pages">IT Support</div>
                         </li>
                         <li>
-                            <div class="small-text-pages">EVENTS SUPPORT</div>
+                            <div class="small-text-pages">Events Support</div>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="sixteen columns" data-scrollreveal="enter bottom and move 250px over 3s">
                     <div class="sections-link-pages">
                         <div class="cl-effect-11">
-                            <a class="scroll" href="#pric-scroll" data-hover="OUR SERVICES">OUR SERVICES</a>
+                            <a class="scroll" href="#pric-scroll" data-hover="Our Services">Our Services</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
         <div class="plans" id="pric-scroll">
             <div class="container">
                 <div class="sixteen columns" data-scrollreveal="enter top and move 250px over 1.5s">
-                    <h4>OUR SERVICES</h4>
+                    <h4>Our Services</h4>
                     <div class="uper-text">
                         <p>Innovi provides you its best services in the following category and subcategory.</p>
                     </div>
@@ -70,7 +70,8 @@
                             <p><strong>Above the line:</strong> Posters, Banners, Newspaper Ads</p>
                             <p><strong>Motions Graphics:</strong> Product 3D Animation, Project Animation, Data Visualization</p>
                             <div class="sections-link-pages">
-                                <div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Create Yours">Create Yours</a>
+                                <div class="cl-effect-11">
+                                    <a href="{{URL::to('/contact')}}" data-hover="Create Yours">Create Yours</a>
                                 </div>
                             </div>
                         </div>
@@ -78,27 +79,35 @@
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
                         <div class="plan-single">
                             <div class="plan-icon">&#xf16c;</div>
-                            <h5><span>PRINTING</span></h5>
-                            <P><strong>COMMERCIAL PRINTING:</strong> STATIONARY, POSTERS</P>
-                            <p><strong>CONTRACT PUBLISHING: </strong>MAGAZINE, NEWSLETTER ETC</p>
-                            <p><STRONG>PRINT SOLUTION FOR INDOORS: </STRONG>ACRYLIC SIGN, POS DISPLAY</p>
-                            <p><STRONG>PRINT SOLUTION FOR OUTDOORS: </STRONG>PVC, PANAFLEX, NEON</p>
-                            <p><strong>MOBILE PRINTING:</strong>BILLBOARD, VEHICLE WRAP</p>
-                            <p><strong>OFFSET PRINTING: </strong> BOOK, CALENDER, DIARY ETC.</p>
-                            <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
+                            <h5><span>Printing</span></h5>
+                            <P><strong>Commercial Printing:</strong> Stationary, Posters</P>
+                            <p><strong>Contract Publishing: </strong>Magazine, Newsletter Etc</p>
+                            <p><strong>Print Solution For Indoors: </strong>Acrylic Sign, Pos Display</p>
+                            <p><strong>Print Solution For Outdoors: </strong>PVC, Panaflex, NEON</p>
+                            <p><strong>Mobile Printing:</strong>Billboard, Vehicle Wrap</p>
+                            <p><strong>Offset Printing: </strong> Book, Calender, Diary Etc.</p>
+                            <div class="sections-link-pages">
+                                <div class="cl-effect-11">
+                                    <a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
                         <div class="plan-single">
                             <div class="plan-icon">&#xf108;</div>
-                            <h5><span>IT SUPPORT</span></h5>
-                            <P><strong>WEB App Design:</strong> STATIONARY, POSTERS</P>
-                            <p><strong>Mobile App Design: </strong>MAGAZINE, NEWSLETTE</p>
-                            <P><strong>WEB App Development:</strong> STATIONARY, POSTERS</P>
-                            <p><strong>Mobile App Development: </strong>MAGAZINE, NEWSLETTE</p>
-                            <p><STRONG>ERP System Development: </STRONG>ACRYLIC SIGN, POS DISPLAY</p>
-                            <P>EXIBITION AND DISPLAY PRINTING SOULTIONS</P>
-                            <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a></div></div>
+                            <h5><span>IT Support</span></h5>
+                            <P><strong>WEB App Design</strong></P>
+                            <p><strong>Mobile App Design </strong></p>
+                            <P><strong>WEB App Development</strong></P>
+                            <p><strong>Mobile App Development</strong></p>
+                            <p><strong>ERP System Development</strong></p>
+                            <P>Exibition And Display Printing Soultions</P>
+                            <div class="sections-link-pages">
+                                <div class="cl-effect-11">
+                                    <a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,7 +115,7 @@
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
                         <div class="plan-single">
                             <div class="plan-icon">&#xf0f0;</div>
-                            <h5><span>EVENTS</span></h5>
+                            <h5><span>Events</span></h5>
                             <P><strong>Corporate Events:</strong> Annual General Meeting, Meeting &amp; Conference, Press Gathering, Product Promotion, Product Launching, Fashion Shows, Product Display, Client Participating Activation</P>
                             <p><strong>Social &amp; Cultural Events:</strong>Concerts, Inauguration Ceremony, Ballroom Events</p>
                             <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a></div></div>
@@ -115,10 +124,10 @@
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
                         <div class="plan-single">
                             <div class="plan-icon">&#xf16c;</div>
-                            <h5><span>DIGITAL MARKETING</span></h5>
+                            <h5><span>Digital Marketing</span></h5>
                             <P><strong>Social Media:</strong> Facebook, Instagram, Twitter, LinkedIn, Snapchat, Youtube</P>
                             <p><strong>Website Promotion:</strong>SEO, SEM (AdWords, Bing Ads)</p>
-                            <p><STRONG>Direct Marketing:</STRONG>Email Marketing, SMS Marketing, Promotional Letters</p>
+                            <p><strong>Direct Marketing:</strong>Email Marketing, SMS Marketing, Promotional Letters</p>
                             <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
                         </div>
                     </div>
@@ -126,9 +135,9 @@
                         <div class="plan-single">
                             <div class="plan-icon">&#xf16c;</div>
                             <h5><span>Content Making</span></h5>
-                            <P><strong>Traditional:</strong> TVC, RDC</P>
-                            <P><strong>Facebook/Instagram:</strong> Event Campaign, General Posters, Story Writing, Short AV</P>
-                            <P><strong>Youtube:</strong>Video Advertisement, Product/Service </P>
+                            <P><strong>Traditional: </strong>TVC, RDC</P>
+                            <P><strong>Facebook/Instagram: </strong>Event Campaign, General Posters, Story Writing, Short AV</P>
+                            <P><strong>Youtube: </strong>Video Advertisement, Product/Service </P>
                             <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
                         </div>
                     </div>
@@ -140,7 +149,7 @@
         <div class="services-top">
             <div class="container">
                 <div class="sixteen columns" data-scrollreveal="enter top and move 250px over 1.5s">
-                    <h4>FROM SIMPLE IDEAS TO AN EXCEPTIONAL OUTPUT</h4>
+                    <h4>From Simple Ideas To An Exceptional Output</h4>
                     <div class="uper-text">
                         <p>Not only we are capable to provide you the best output, but also we doing to providing the best to the planet earth and it's people.</p>
                     </div>
@@ -242,7 +251,7 @@
         <div class="clients">
             <div class="container">
                 <div class="sixteen columns" data-scrollreveal="enter top and move 250px over 1.5s">
-                    <h4>OUR CLIENTS</h4>
+                    <h4>Our Clients</h4>
                     <div class="uper-text">
                         <p>Some of the clients who were has built long lasting partnerships with us.</p>
                     </div>
@@ -312,6 +321,6 @@
                 </div>
             </div>
         </div>
-        <!-- ================================================== -->
     </div>
+    <!-- ================================================== -->
 @endsection
