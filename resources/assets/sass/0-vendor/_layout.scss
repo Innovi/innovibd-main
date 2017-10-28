@@ -195,16 +195,6 @@ body.royal_loader {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'awesome';
-	src:url('../fonts/awesome/fontawesome-webfont.eot');
-	src:url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'),
-		url('../fonts/awesome/fontawesome-webfont.woff') format('woff'),
-		url('../fonts/awesome/fontawesome-webfont.ttf') format('truetype'),
-		url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
-}
 .morph-button > button {
 	position: fixed;
 	top:20px;
@@ -1645,7 +1635,7 @@ iframe{
 }
 
 .js .grid {
-	background: url(../img/loading.gif) no-repeat 50% 100px;
+	background: url(../images/loader.gif) no-repeat 50% 100px;
 }
 
 .js .grid.loaded {
@@ -2083,16 +2073,7 @@ iframe{
 /* Icon Fonts
 *********************************/
 /* Font-face Icons */
-@font-face {
-	font-family: 'flexslider-icon';
-	src:url('font/flexslider-icon.eot');
-	src:url('font/flexslider-icon.eot?#iefix') format('embedded-opentype'),
-		url('font/flexslider-icon.woff') format('woff'),
-		url('font/flexslider-icon.ttf') format('truetype'),
-		url('font/flexslider-icon.svg#flexslider-icon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 /* FlexSlider Necessary Styles
 *********************************/
@@ -2764,7 +2745,7 @@ html[xmlns] .slides {display: block;}
 	#ajaxsuccess {
 		background: #f5f5f5;
 		color:#000;
-		font: 20px/60px 'OpenSans-Light-webfont';
+		// font: 20px/60px 'OpenSans-Light-webfont';
 		height:60px;
 		display: none;
 		padding-left:10px;
@@ -3090,41 +3071,6 @@ html[xmlns] .slides {display: block;}
 
 /* #Font-Face
 ================================================== */
-
-
-
-@font-face {
-    font-family: 'OpenSans-Light-webfont';
-    src: url('font/OpenSans-Light-webfont.eot');
-    src: url('font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/OpenSans-Light-webfont.woff') format('woff'),
-         url('font/OpenSans-Light-webfont.ttf') format('truetype'),
-         url('font/OpenSans-Light-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sifonn-Basic';
-    src: url('font/Sifonn-Basic.eot');
-    src: url('font/Sifonn-Basic.eot?#iefix') format('embedded-opentype'),
-         url('font/Sifonn-Basic.woff') format('woff'),
-         url('font/Sifonn-Basic.ttf') format('truetype'),
-         url('font/Sifonn-Basic.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sifonn-Basic-Outline';
-    src: url('font/Sifonn-Basic-Outline.eot');
-    src: url('font/Sifonn-Basic-Outline.eot?#iefix') format('embedded-opentype'),
-         url('font/Sifonn-Basic-Outline.woff') format('woff'),
-         url('font/Sifonn-Basic-Outline.ttf') format('truetype'),
-         url('font/Sifonn-Basic-Outline.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*Galerry submenu bar*/
 .navbar {

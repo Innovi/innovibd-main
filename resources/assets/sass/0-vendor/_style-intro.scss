@@ -9,7 +9,7 @@ a{
 	text-decoration:none;
 }
 table {
-    border-spacing: 0;    
+    border-spacing: 0;
 }
 fieldset,img {
     border: 0;
@@ -355,7 +355,7 @@ body.royal_loader {
 .morph-button-overlay.open .morph-content,
 .morph-button-sidebar.open .morph-content {
 	-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
-	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;	
+	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
 }
 
 /* Morph Button Style: Overlay */
@@ -696,7 +696,7 @@ body.royal_loader {
 .content-style-overlay .menu-in-overlay li .cl-effect-11 a {
 	color: #fff;
 	text-shadow: none;
-} 
+}
 
 .content-style-overlay .menu-in-overlay li .cl-effect-11 a::before {
 	position: absolute;
@@ -741,17 +741,17 @@ body.royal_loader {
 }
 
 
-.just_pattern { 
-	background-image: url(../images/pattern.png); 
-	position: absolute; 
-	opacity: 0.6; 
+.just_pattern {
+	background-image: url(../images/pattern.png);
+	position: absolute;
+	opacity: 0.6;
 	left: 0px;
 	top: 0px;
 	right:0;
 	bottom:0;
 	width: 100%;
-	height: 100%; 
-	z-index: 1; 
+	height: 100%;
+	z-index: 1;
 }
 
 #left1{
@@ -799,8 +799,8 @@ body.royal_loader {
 
 
 
-.big-text { 
-	position: absolute; 
+.big-text {
+	position: absolute;
 	left:0;
 	top:50%;
 	margin-top:-75px;
@@ -810,12 +810,12 @@ body.royal_loader {
 	text-transform:uppercase;
 	color:#fff;
 	text-align:center;
-	font-size: 60px; 
+	font-size: 60px;
 	line-height:60px;
-	z-index: 200; 
+	z-index: 200;
 }
-.text-line { 
-	position: absolute; 
+.text-line {
+	position: absolute;
 	left:50%;
 	top:50%;
 	margin-top:10px;
@@ -823,9 +823,9 @@ body.royal_loader {
 	margin-left:-60px;
 	height:0px;
 	border-top:1px dashed #fff;
-	z-index: 200; 
+	z-index: 200;
 }
-.small-text { 
+.small-text {
 	position: absolute;
 	left:0;
 	top:50%;
@@ -835,15 +835,15 @@ body.royal_loader {
 	font-family: 'Satisfy', cursive;
 	text-shadow: 0 0 5px rgba(0,0,0,0.1);
 	text-align:center;
-	font-size: 24px; 
+	font-size: 24px;
 	line-height:24px;
 	font-weight: 100;
-	z-index: 200; 
+	z-index: 200;
 }
 
 
-.big-text-down { 
-	position: absolute; 
+.big-text-down {
+	position: absolute;
 	left:0;
 	top:50%;
 	margin-top:-60px;
@@ -853,12 +853,12 @@ body.royal_loader {
 	text-transform:uppercase;
 	color:#0888ff;
 	text-align:center;
-	font-size: 45px; 
+	font-size: 45px;
 	line-height:45px;
-	z-index: 200; 
+	z-index: 200;
 }
-.text-line-down { 
-	position: absolute; 
+.text-line-down {
+	position: absolute;
 	left:50%;
 	top:50%;
 	margin-top:10px;
@@ -866,9 +866,9 @@ body.royal_loader {
 	margin-left:-60px;
 	height:0px;
 	border-top:1px dashed #fff;
-	z-index: 200; 
+	z-index: 200;
 }
-.small-text-down { 
+.small-text-down {
 	position: absolute;
 	left:0;
 	top:50%;
@@ -881,9 +881,9 @@ body.royal_loader {
 	text-transform:uppercase;
 	text-align:center;
 	letter-spacing:2px;
-	font-size: 12px; 
+	font-size: 12px;
 	line-height:12px;
-	z-index: 200; 
+	z-index: 200;
 }
 
 .flippy {
@@ -924,16 +924,16 @@ body.royal_loader {
 	background-size:7px 50px;
 	z-index:10;
 }
-.black-back { 
-	background: rgba(0,0,0,.5); 
-	position: absolute;  
+.black-back {
+	background: rgba(0,0,0,.5);
+	position: absolute;
 	left: 0px;
 	top: 0px;
 	right:0;
 	bottom:0;
 	width: 100%;
-	height: 100%; 
-	z-index: 2; 
+	height: 100%;
+	z-index: 2;
 }
 
 .sections-link{
@@ -959,7 +959,7 @@ body.royal_loader {
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	letter-spacing:2px;
-	font-size:12px; 
+	font-size:12px;
 	padding:15px 50px;
 	background:rgba(0,0,0,.7);
 }
@@ -972,7 +972,7 @@ body.royal_loader {
 	color: #0888ff;
 	text-shadow: none;
 	overflow: hidden;
-} 
+}
 
 .sections-link .cl-effect-11 a::before {
 	position: absolute;
@@ -1130,60 +1130,60 @@ body.royal_loader {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1699px) {
-.big-text { 
+.big-text {
 	margin-top:-60px;
-	font-size: 45px; 
+	font-size: 45px;
 	line-height:45px;
-} 
+}
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
-.big-text { 
+.big-text {
 	margin-top:-50px;
-	font-size: 35px; 
+	font-size: 35px;
 	line-height:35px;
-} 
-.small-text { 
-	font-size: 20px; 
+}
+.small-text {
+	font-size: 20px;
 	line-height:20px;
 }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-.black-back { 
+.black-back {
 	display:none;
 }
 .just_pattern {
-	display:none; 
+	display:none;
 }
 .scrolling{
 	display:none;
 }
-.big-text { 
+.big-text {
 	margin-top:-50px;
-	font-size: 35px; 
+	font-size: 35px;
 	line-height:35px;
 	width:200%;
-} 
-.text-line {  
+}
+.text-line {
 	left:100%;
 }
-.small-text { 
-	font-size: 20px; 
+.small-text {
+	font-size: 20px;
 	line-height:20px;
 	width:200%;
 }
-.big-text-down { 
+.big-text-down {
 	margin-top:-80px;
 	width:200%;
-	font-size: 35px; 
+	font-size: 35px;
 	line-height:35px;
 }
-.text-line-down { 
+.text-line-down {
 	left:100%;
 	margin-top:-20px;
 }
-.small-text-down { 
+.small-text-down {
 	margin-top:5px;
 	width:200%;
 }
@@ -1229,40 +1229,40 @@ body.royal_loader {
 #multiscroll-nav {
     margin-top: 52px;
 }
-.black-back { 
+.black-back {
 	display:none;
 }
 .just_pattern {
-	display:none; 
+	display:none;
 }
 .scrolling{
 	display:none;
 }
-.big-text { 
+.big-text {
 	margin-top:-50px;
-	font-size: 35px; 
+	font-size: 35px;
 	line-height:35px;
 	width:200%;
-} 
-.text-line {  
+}
+.text-line {
 	left:100%;
 }
-.small-text { 
-	font-size: 20px; 
+.small-text {
+	font-size: 20px;
 	line-height:20px;
 	width:200%;
 }
-.big-text-down { 
+.big-text-down {
 	margin-top:-80px;
 	width:200%;
-	font-size: 35px; 
+	font-size: 35px;
 	line-height:35px;
 }
-.text-line-down { 
+.text-line-down {
 	left:100%;
 	margin-top:-20px;
 }
-.small-text-down { 
+.small-text-down {
 	margin-top:5px;
 	width:200%;
 }
@@ -1308,43 +1308,43 @@ body.royal_loader {
 #multiscroll-nav {
     margin-top: 52px;
 }
-.black-back { 
+.black-back {
 	display:none;
 }
 .just_pattern {
-	display:none; 
+	display:none;
 }
 .scrolling{
 	display:none;
 }
-.big-text { 
+.big-text {
 	margin-top:-40px;
-	font-size: 25px; 
+	font-size: 25px;
 	line-height:25px;
 	width:200%;
-} 
-.text-line {  
+}
+.text-line {
 	left:100%;
 }
-.small-text { 
-	font-size: 16px; 
+.small-text {
+	font-size: 16px;
 	line-height:16px;
 	width:200%;
 }
-.big-text-down { 
+.big-text-down {
 	margin-top:-70px;
 	width:200%;
-	font-size: 25px; 
+	font-size: 25px;
 	line-height:25px;
 }
-.text-line-down { 
+.text-line-down {
 	left:100%;
 	margin-top:-20px;
 }
-.small-text-down { 
+.small-text-down {
 	margin-top:5px;
 	width:200%;
-	font-size: 10px; 
+	font-size: 10px;
 	line-height:10px;
 }
 #right2 .big-text-down,
@@ -1389,43 +1389,43 @@ body.royal_loader {
 #multiscroll-nav {
     margin-top: 52px;
 }
-.black-back { 
+.black-back {
 	display:none;
 }
 .just_pattern {
-	display:none; 
+	display:none;
 }
 .scrolling{
 	display:none;
 }
-.big-text { 
+.big-text {
 	margin-top:-40px;
-	font-size: 25px; 
+	font-size: 25px;
 	line-height:25px;
 	width:200%;
-} 
-.text-line {  
+}
+.text-line {
 	left:100%;
 }
-.small-text { 
-	font-size: 16px; 
+.small-text {
+	font-size: 16px;
 	line-height:16px;
 	width:200%;
 }
-.big-text-down { 
+.big-text-down {
 	margin-top:-70px;
 	width:200%;
-	font-size: 25px; 
+	font-size: 25px;
 	line-height:25px;
 }
-.text-line-down { 
+.text-line-down {
 	left:100%;
 	margin-top:-20px;
 }
-.small-text-down { 
+.small-text-down {
 	margin-top:5px;
 	width:200%;
-	font-size: 10px; 
+	font-size: 10px;
 	line-height:10px;
 }
 #right2 .big-text-down,
@@ -1465,36 +1465,3 @@ body.royal_loader {
 	width: 200%;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'Sifonn-Basic';
-    src: url('font/Sifonn-Basic.eot');
-    src: url('font/Sifonn-Basic.eot?#iefix') format('embedded-opentype'),
-         url('font/Sifonn-Basic.woff') format('woff'),
-         url('font/Sifonn-Basic.ttf') format('truetype'),
-         url('font/Sifonn-Basic.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
