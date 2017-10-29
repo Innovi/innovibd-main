@@ -1,6 +1,6 @@
     <div class="logo"></div>
     <div class="morph-button morph-button-overlay morph-button-fixed">
-        <button type="button"></button>
+        <button type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
         <div class="morph-content">
             <div class="content-style-overlay">
                 <span class="icon icon-close">Close the overlay</span>
