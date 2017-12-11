@@ -41,6 +41,8 @@
         <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/retina.css') }}">
     @endif
+
+    <link rel="stylesheet" href="{{ URL::asset('css/user.css') }}">
     <!-- ================================================== -->
 
     <!-- Scripts

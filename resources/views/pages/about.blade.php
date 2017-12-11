@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
-                        <div class="member-wrap">
+                        <div class="member-wrap same-height-fix">
                             <img src="images/team1.jpg" alt=""/>
                             <h6>Omid Chowdhury</h6>
                             <span>Director of Digital Technology</span>

@@ -76,28 +76,22 @@
 
     <div class="numbers-section" id="numbers-down">
         <div class="container">
-            <div class="four columns">
+            <div class="six columns">
                 <div class="facts-wrap">
                     <div class="facts-wrap-num"><span class="counter">305</span></div>
                     <h5>Reviews</h5>
                 </div>
             </div>
-            <div class="four columns">
+            <div class="five columns">
                 <div class="facts-wrap">
                     <div class="facts-wrap-num"><span class="counter">154</span></div>
                     <h5>Products</h5>
                 </div>
             </div>
-            <div class="four columns">
+            <div class="six columns">
                 <div class="facts-wrap">
                     <div class="facts-wrap-num"><span class="counter">63</span></div>
                     <h5>Clients</h5>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="facts-wrap">
-                    <div class="facts-wrap-num"><span class="counter">2</span></div>
-                    <h5>Continents</h5>
                 </div>
             </div>
         </div>
