@@ -83,7 +83,8 @@
     <script type="text/javascript" src="js/flippy.js"></script>
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/tipper.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.bxslider.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/scrollReveal.js"></script>
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>

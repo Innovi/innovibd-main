@@ -2,19 +2,19 @@
 
 
 
-//Scrolling	
-		
+//Scrolling
+
 	$(document).ready(
-	function() {  
+	function() {
 		$("html").niceScroll();
 		}
-	);	
+	);
 
 
 //fullscreen menu
 
-		
-			(function() {	
+
+			(function() {
 				var docElem = window.document.documentElement, didScroll, scrollPosition;
 
 				// trick to prevent scrolling when opening/closing button
@@ -49,9 +49,9 @@
 				};
 
 				scrollFn();
-				
+
 				var el = document.querySelector( '.morph-button' );
-				
+
 				new UIMorphingButton( el, {
 					closeEl : '.icon-close',
 					onBeforeOpen : function() {
@@ -79,16 +79,16 @@
 						canScroll();
 					}
 				} );
-			})();		
-		
+			})();
 
-		
-	
-		
-		
 
-//Parallax effects 
-	
+
+
+
+
+
+//Parallax effects
+
 $(document).ready(function(){
 		$('.parallax-about').parallax("50%", 0.3);
 });
@@ -106,13 +106,13 @@ $(document).ready(function(){
                     distance: "100px"
                 });
 
-            });	
-			
+            });
 
-	
-			
+
+
+
 //Scroll on click
-			
+
 /*global $:false */
 $(document).ready(function(){"use strict";
 	$(".scroll").click(function(event){
@@ -128,27 +128,27 @@ $(document).ready(function(){"use strict";
 		$('html, body').animate({scrollTop:target_top}, 1200);
 	});
 });
-			
-			
+
+
 //Tooltip
 
 $(document).ready(function() {
 	$(".tipped").tipper();
-});			
+});
 
 
 //Twit section
 
 	$(document).ready(function(){
 		$('.slider-twit').bxSlider({
-			adaptiveHeight: true,
+			adaptiveHeight: false,
 			touchEnabled: true,
 			pager: false,
 			controls: true,
-			auto: false,
+			auto: true,
 			slideMargin: 1
 		});
-	});	
+	});
 
 
 //History Carousel
@@ -156,10 +156,10 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
- 
+
   var sync1 = $("#sync3");
   var sync2 = $("#sync4");
- 
+
   sync1.owlCarousel({
     singleItem : true,
     slideSpeed : 1000,
@@ -174,15 +174,15 @@ $(document).ready(function() {
 
 
   var time = 5; // time in seconds
- 
+
   var $progressBar,
-      $bar, 
-      $elem, 
-      isPause, 
+      $bar,
+      $elem,
+      isPause,
       tick,
       percentTime;
 
- 
+
     //Init progressBar where elem is $("#owl-demo")
     function progressBar(elem){
       $elem = elem;
@@ -191,7 +191,7 @@ $(document).ready(function() {
       //start counting
       start();
     }
- 
+
     //create div#progressBar and div#bar then prepend to $("#owl-demo")
     function buildProgressBar(){
       $progressBar = $("<div>",{
@@ -202,7 +202,7 @@ $(document).ready(function() {
       });
       $progressBar.append($bar).prependTo($elem);
     }
- 
+
     function start() {
       //reset timer
       percentTime = 0;
@@ -210,7 +210,7 @@ $(document).ready(function() {
       //run interval every 0.01 second
       tick = setInterval(interval, 10);
     };
- 
+
     function interval() {
       if(isPause === false){
         percentTime += 1 / time;
@@ -219,17 +219,17 @@ $(document).ready(function() {
          });
         //if percentTime is equal or greater than 100
         if(percentTime >= 100){
-          //slide to next item 
+          //slide to next item
           $elem.trigger('owl.next')
         }
       }
     }
- 
-    //pause while dragging 
+
+    //pause while dragging
     function pauseOnDragging(){
       isPause = true;
     }
- 
+
     //moved callback
     function moved(){
       //clear interval
@@ -241,7 +241,7 @@ $(document).ready(function() {
 
 
 
-  
+
   sync2.owlCarousel({
     items : 4,
     itemsDesktop      : [1199,4],
@@ -254,7 +254,7 @@ $(document).ready(function() {
       el.find(".owl-item").eq(0).addClass("synced");
     }
   });
- 
+
   function syncPosition(el){
     var current = this.currentItem;
     $("#sync4")
@@ -266,13 +266,13 @@ $(document).ready(function() {
       center(current)
     }
   }
- 
+
   $("#sync4").on("click", ".owl-item", function(e){
     e.preventDefault();
     var number = $(this).data("owlItem");
     sync1.trigger("owl.goTo",number);
   });
- 
+
   function center(number){
     var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
     var num = number;
@@ -282,7 +282,7 @@ $(document).ready(function() {
         var found = true;
       }
     }
- 
+
     if(found===false){
       if(num>sync2visible[sync2visible.length-1]){
         sync2.trigger("owl.goTo", num - sync2visible.length+2)
@@ -297,14 +297,14 @@ $(document).ready(function() {
     } else if(num === sync2visible[0]){
       sync2.trigger("owl.goTo", num-1)
     }
-    
+
   }
- 
-});	
+
+});
 
 
 
 
-			
+
 
 })(jQuery);
