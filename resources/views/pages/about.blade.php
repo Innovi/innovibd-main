@@ -156,13 +156,7 @@
                         <li>
                             <div class="twit">
                                 <div class="icon-twit">&#xf09a;</div>
-                                <p><a href="fb.com/BDinnovi">@BDinnovi>: We are offering 10% discount for newly registered customers! Get your disount and start working with us!</a><a href="http://www.google.com.bd/?#q=innovi+bd+location">BDinnovi</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="twit">
-                                <div class="icon-twit">&#xf099;</div>
-                                <p><a href="http://twitter.com/FabH">corporate Office</a>: Innovi just moved to its new place Malibagh Chowdhurypara  - <a href="https://goo.gl/maps/zL7zkzXVDVR2">View on map</a></p>
+                                <p><a href="fb.com/BDinnovi">@BDinnovi</a>: We are offering 10% discount for newly registered customers! Get your disount and start working with us! <a href="http://www.google.com.bd/?#q=innovi+bd+location">BDinnovi</a></p>
                             </div>
                         </li>
                         <li>
@@ -216,13 +210,6 @@
                             <div class="over-image">
                                 <h6>Year 2012.</h6>
                                 <p>Innovi sponsored Ad Maker Bangladesh.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/h4.jpg" alt=""/>
-                            <div class="over-image">
-                                <h6>Year 2014.</h6>
-                                <p>Innovi London is launched with a view of expanding all over the globe.</p>
                             </div>
                         </div>
                     </div>
