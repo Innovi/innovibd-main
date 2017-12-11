@@ -78,9 +78,6 @@
     </script>
     <script type="text/javascript" src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-    @if ( (isset($page) ? $page : ' ') == 'home')
-
-    @endif
     <script type="text/javascript" src="js/classie.js"></script>
     <script type="text/javascript" src="js/uiMorphingButton_fixed.js"></script>
     <script type="text/javascript" src="js/flippy.js"></script>
