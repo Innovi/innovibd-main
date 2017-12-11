@@ -102,7 +102,6 @@
                             <P><strong>WEB App Development</strong></P>
                             <p><strong>Mobile App Development</strong></p>
                             <p><strong>ERP System Development</strong></p>
-                            <P>Exibition And Display Printing Soultions</P>
                             <div class="sections-link-pages">
                                 <div class="cl-effect-11">
                                     <a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a>
