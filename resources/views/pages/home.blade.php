@@ -124,3 +124,8 @@
         <!-- ================================================== -->
     </div>
 @endsection
+
+@push('scripts')
+    <script type="text/javascript" src="js/template-intro.js"></script>
+    <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
+@endpush

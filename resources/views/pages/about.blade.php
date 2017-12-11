@@ -232,3 +232,7 @@
     </div>
     <!-- ================================================== -->
 @endsection
+
+@push('scripts')
+    <script type="text/javascript" src="js/template-about.js"></script>
+@endpush

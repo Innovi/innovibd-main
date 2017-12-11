@@ -103,3 +103,7 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <script type="text/javascript" src="js/template-work.js"></script>
+@endpush

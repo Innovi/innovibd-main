@@ -79,7 +79,7 @@
     <script type="text/javascript" src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
     @if ( (isset($page) ? $page : ' ') == 'home')
-        <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
+
     @endif
     <script type="text/javascript" src="js/classie.js"></script>
     <script type="text/javascript" src="js/uiMorphingButton_fixed.js"></script>
@@ -104,13 +104,10 @@
         } );
     })(jQuery);
     </script>
-    <script type="text/javascript" src="js/template-about.js"></script>
-    <script type="text/javascript" src="js/template-work.js"></script>
-    <script type="text/javascript" src="js/template-contact.js"></script>
-    <script type="text/javascript" src="js/template-services.js"></script>
-    <script type="text/javascript" src="js/template-intro.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDyKLBBB5YNAnWZhMqiwDMli0zUtQLKFgU"></script>
     <script type="text/javascript" src="js/gmaps.js"></script>
+
+    @stack('scripts')
 
     <!-- End Document
     ================================================== -->
