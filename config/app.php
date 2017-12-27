@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Dhaka',
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,13 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Innovi\Providers\AppServiceProvider::class,
+        Innovi\Providers\AuthServiceProvider::class,
+        // Innovi\Providers\BroadcastServiceProvider::class,
+        Innovi\Providers\EventServiceProvider::class,
+        Innovi\Providers\RouteServiceProvider::class,
+
+        Sven\ArtisanView\ArtisanViewServiceProvider::class,
 
     ],
 

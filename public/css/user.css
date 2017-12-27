@@ -1,0 +1,12 @@
+.same-height-fix .social-bottom {
+  margin-top: 22px;
+}
+
+.plan-single {
+  position: relative;
+}
+
+.plan-single-btn {
+  position: absolute !important;
+  bottom: 20px;
+}
