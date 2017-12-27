@@ -69,7 +69,7 @@
                             <p><strong>Environmental Graphics:</strong> Signage </p>
                             <p><strong>Above the line:</strong> Posters, Banners, Newspaper Ads</p>
                             <p><strong>Motions Graphics:</strong> Product 3D Animation, Project Animation, Data Visualization</p>
-                            <div class="sections-link-pages">
+                            <div class="sections-link-pages plan-single-btn">
                                 <div class="cl-effect-11">
                                     <a href="{{URL::to('/contact')}}" data-hover="Create Yours">Create Yours</a>
                                 </div>
@@ -86,7 +86,7 @@
                             <p><strong>Print Solution For Outdoors: </strong>PVC, Panaflex, NEON</p>
                             <p><strong>Mobile Printing:</strong>Billboard, Vehicle Wrap</p>
                             <p><strong>Offset Printing: </strong> Book, Calender, Diary Etc.</p>
-                            <div class="sections-link-pages">
+                            <div class="sections-link-pages plan-single-btn">
                                 <div class="cl-effect-11">
                                     <a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a>
                                 </div>
@@ -102,8 +102,7 @@
                             <P><strong>WEB App Development</strong></P>
                             <p><strong>Mobile App Development</strong></p>
                             <p><strong>ERP System Development</strong></p>
-                            <P>Exibition And Display Printing Soultions</P>
-                            <div class="sections-link-pages">
+                            <div class="sections-link-pages plan-single-btn">
                                 <div class="cl-effect-11">
                                     <a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a>
                                 </div>
@@ -118,7 +117,7 @@
                             <h5><span>Events</span></h5>
                             <P><strong>Corporate Events:</strong> Annual General Meeting, Meeting &amp; Conference, Press Gathering, Product Promotion, Product Launching, Fashion Shows, Product Display, Client Participating Activation</P>
                             <p><strong>Social &amp; Cultural Events:</strong>Concerts, Inauguration Ceremony, Ballroom Events</p>
-                            <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a></div></div>
+                            <div class="sections-link-pages plan-single-btn"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Contact Us">Contact Us</a></div></div>
                         </div>
                     </div>
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
@@ -128,7 +127,7 @@
                             <P><strong>Social Media:</strong> Facebook, Instagram, Twitter, LinkedIn, Snapchat, Youtube</P>
                             <p><strong>Website Promotion:</strong>SEO, SEM (AdWords, Bing Ads)</p>
                             <p><strong>Direct Marketing:</strong>Email Marketing, SMS Marketing, Promotional Letters</p>
-                            <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
+                            <div class="sections-link-pages plan-single-btn"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
                         </div>
                     </div>
                     <div class="one-third column" data-scrollreveal="enter bottom and move 250px over 1.5s">
@@ -138,7 +137,7 @@
                             <P><strong>Traditional: </strong>TVC, RDC</P>
                             <P><strong>Facebook/Instagram: </strong>Event Campaign, General Posters, Story Writing, Short AV</P>
                             <P><strong>Youtube: </strong>Video Advertisement, Product/Service </P>
-                            <div class="sections-link-pages"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
+                            <div class="sections-link-pages plan-single-btn"><div class="cl-effect-11"><a href="{{URL::to('/contact')}}" data-hover="Order Now">Order Now</a></div></div>
                         </div>
                     </div>
                 </div>
@@ -324,3 +323,7 @@
     </div>
     <!-- ================================================== -->
 @endsection
+
+@push('scripts')
+    <script type="text/javascript" src="js/template-services.js"></script>
+@endpush

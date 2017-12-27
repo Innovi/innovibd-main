@@ -90,3 +90,7 @@
     </div>
     <!-- ================================================== -->
 @endsection
+
+@push('scripts')
+    <script type="text/javascript" src="js/template-contact.js"></script>
+@endpush
